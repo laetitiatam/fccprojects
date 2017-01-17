@@ -1,1 +1,75 @@
+body {
+  background-color: #52ad9c;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
 
+p {
+  font-size: 2em;
+  font-family: 'Caveat', cursive;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+a:visited {
+  background: transparent;
+}
+
+.main {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.quote {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  border: none;
+  color: #2d5f56;
+  text-align: center;
+  background: #ffffff;
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  background: none;
+  padding: 12px 22px;
+  margin-top: 5px;
+  border: 0 none;
+  border-radius: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  white-space: normal;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: 0 none;
+}
+
+.btn-custom {
+  border: 4px solid #fff;
+  color: #fff;
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-custom:hover {
+  background: #356f64;
+  border: 4px solid #fff;
+  color: #fff;
+}
+
+.btn-custom:focus {
+  border: 4px solid #fff;
+  color: #fff;
+}
