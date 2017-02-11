@@ -1,0 +1,50 @@
+html {
+	height: 100%;
+}
+
+body {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:x-large;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+
+	background-color: #000;
+
+}
+
+p {
+	font-size: 5vw;
+}
+
+.container {
+	margin-top: 10%;
+	margin-left: 10%
+}
+
+#city {
+font-size: 10vw;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #000;
+}
+
+#country {
+	font-size: 8vw;
+	text-shadow: 2px 2px #000;
+}
+
+#weather-description{
+	font-size: 5vw;
+	text-transform: capitalize;
+}
+
+#temperature {
+	font-size: 5vw;
+	vertical-align: top;
+}
+
+#c-btn, #f-btn {
+	font-size: 5vw;
+	color: #fff;
+	}
